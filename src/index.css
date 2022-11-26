@@ -1,0 +1,12 @@
+.header{
+    align-self: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.header:hover{
+    background-color: coral;
+    -webkit-filter: grayscale(0.1) blur(1px);
+}
